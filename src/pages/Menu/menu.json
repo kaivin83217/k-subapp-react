@@ -1,0 +1,698 @@
+{
+  "console": {
+    "mainMenu": [
+      {
+        "name": "总览",
+        "path": "/overview",
+        "strategy": "0b111111",
+        "id": "/overview",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/overview/v",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "总览1",
+            "path": "/overview/v",
+            "parentId": "/overview",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/overview/v",
+            "child": [
+              {
+                "name": "总览11",
+                "path": "/overview/v/1",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/overview/v/1",
+                "parentId": "/overview/v"
+              },
+              {
+                "name": "总览12",
+                "path": "/overview/v/3",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/overview/v/3",
+                "parentId": "/overview/v"
+              }
+            ]
+          },
+          {
+            "name": "总览2",
+            "path": "/overview/we",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/overview/we",
+            "parentId": "/overview"
+          }
+        ]
+      },
+      {
+        "name": "企业门户",
+        "path": "/ep",
+        "strategy": "0b111111",
+        "level": 1,
+        "id": "/ep",
+        "parentId": 0,
+        "redirect": "/ep/home",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "企业门户1",
+            "path": "/ep/home",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/ep/home",
+            "parentId": "/ep",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg"
+          },
+          {
+            "name": "企业门户2",
+            "path": "/ep/c",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/ep/c",
+            "parentId": "/ep",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "child": [
+              {
+                "name": "企业门户21",
+                "path": "/ep/c/1",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/ep/c/1",
+                "parentId": "/ep/c"
+              },
+              {
+                "name": "企业门户22",
+                "path": "/ep/c/3",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/ep/c/3",
+                "parentId": "/ep/c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "子应用",
+        "path": "/hat-app-umijs",
+        "strategy": "0b111111",
+        "id": "/hat-app-umijs",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/hat-app-umijs/console/list",
+        "child": [
+          {
+            "name": "子应用console列表",
+            "path": "/hat-app-umijs/console/list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/console/list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用sp/amis列表",
+            "path": "/hat-app-umijs/sp/amis-list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/sp/amis-list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用console/amis列表",
+            "path": "/hat-app-umijs/console/amis-list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/console/amis-list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用sp表",
+            "path": "/hat-app-umijs/sp/list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/sp/list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用sp/表",
+            "path": "/hat-app-umijs/",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          }
+        ]
+      }
+    ],
+    "accountMenu": [
+      {
+        "name": "账号",
+        "strategy": "0b111111",
+        "path": "/hat-account-center",
+        "id": "/hat-account-center",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/hat-account-center/users",
+        "child": [
+          {
+            "name": "账号信息",
+            "path": "/hat-account-center/sp/account",
+            "strategy": "0b111011",
+            "level": 2,
+            "id": "/hat-account-center/sp/account",
+            "parentId": "/hat-account-center"
+          },
+          {
+            "name": "访问管理",
+            "path": "/hat-account-center/users",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/hat-account-center/users",
+            "parentId": "/hat-account-center",
+            "child": [
+              {
+                "name": "访问管理1",
+                "path": "/hat-account-center/users/1",
+                "id": "/hat-account-center/users/1",
+                "parentId": "/hat-account-center/users",
+                "strategy": "0b111111",
+                "level": 3
+              },
+              {
+                "name": "访问管理2",
+                "path": "/hat-account-center/users/2",
+                "id": "/hat-account-center/users/2",
+                "parentId": "/hat-account-center/users",
+                "strategy": "0b111111",
+                "level": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "menuManager": [
+      {
+        "name": "平台设置",
+        "strategy": "0b111111",
+        "path": "/hat-setting",
+        "id": "/hat-setting",
+        "level": 1,
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "parentId": 0,
+        "redirect": "/hat-setting",
+        "child": [
+          {
+            "name": "订单管理",
+            "path": "/hat-setting/order",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/hat-setting/order",
+            "parentId": "/hat-setting",
+            "child": [
+              {
+                "name": "订单1",
+                "path": "/hat-setting/order/1",
+                "id": "/hat-setting/order/1",
+                "parentId": "/hat-setting/order",
+                "strategy": "0b111111",
+                "level": 3
+              },
+              {
+                "name": "订单2",
+                "path": "/hat-setting/order/3",
+                "id": "/hat-setting/order/3",
+                "parentId": "/hat-setting/order",
+                "strategy": "0b111111",
+                "level": 3
+              }
+            ]
+          },
+          {
+            "name": "发票管理",
+            "path": "/hat-setting/invoice",
+            "strategy": "0b111111",
+            "id": "/hat-setting/invoice",
+            "parentId": "/hat-setting",
+            "level": 2
+          },
+          {
+            "name": "平台设置",
+            "path": "/hat-setting/sp/setting",
+            "strategy": "0b111111",
+            "id": "/hat-setting/sp/setting",
+            "parentId": "/hat-setting",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "name": "应用服务商",
+        "strategy": "0b111111",
+        "path": "/apply",
+        "id": "/apply",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/apply/invoice",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "订单管理",
+            "path": "/apply/order",
+            "strategy": "0b111111",
+            "id": "/apply/order",
+            "parentId": "/apply",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "level": 2
+          },
+          {
+            "name": "发票管理",
+            "path": "/apply/invoice",
+            "strategy": "0b111111",
+            "id": "/apply/invoice",
+            "parentId": "/apply",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "level": 2
+          }
+        ]
+      }
+    ]
+  },
+  "sp": {
+    "mainMenu": [
+      {
+        "name": "访问管理",
+        "path": "/hat-app-idaas",
+        "strategy": "0b111111",
+        "id": "/hat-app-idaas",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/hat-app-idaas/users/list",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "用户",
+            "path": "/hat-app-idaas/users",
+            "strategy": "0b111111",
+            "id": "/hat-app-idaas/users",
+            "level": 2,
+            "parentId": "/hat-app-idaas",
+            "redirect": "/hat-app-idaas/users/list",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "child": [
+              {
+                "name": "用户列表",
+                "path": "/hat-app-idaas/users/list",
+                "parentId": "/hat-app-idaas/users",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/hat-app-idaas/users/list"
+              },
+              {
+                "name": "用户角色",
+                "path": "/hat-app-idaas/users/roles",
+                "parentId": "/hat-app-idaas/users",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/hat-app-idaas/users/roles"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "平台设置",
+        "path": "/react_app",
+        "strategy": "0b111111",
+        "level": 1,
+        "id": "/react_app",
+        "parentId": 0,
+        "redirect": "/react_app/home",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "首页",
+            "path": "/react_app/home",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/react_app/home",
+            "parentId": "/react_app",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg"
+          },
+          {
+            "name": "基本配置",
+            "path": "/react_app/setting",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/react_app/setting",
+            "parentId": "/react_app",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg"
+          }
+        ]
+      },
+      {
+        "name": "kfreestyle子应用",
+        "path": "/kstyle-subapp",
+        "strategy": "0b111111",
+        "level": 1,
+        "id": "/kstyle-subapp",
+        "parentId": 0,
+        "redirect": "/kstyle-subapp/content",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "k子应用1",
+            "path": "/kstyle-subapp/content",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/kstyle-subapp/content",
+            "parentId": "/kstyle-subapp",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg"
+          },
+          {
+            "name": "k子应用2",
+            "path": "/kstyle-subapp/container",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/kstyle-subapp/container",
+            "parentId": "/kstyle-subapp",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg"
+          }
+        ]
+      },
+      {
+        "name": "总览",
+        "path": "/overview",
+        "strategy": "0b111111",
+        "id": "/overview",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/overview/v",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "总览1",
+            "path": "/overview/v",
+            "parentId": "/overview",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/overview/v",
+            "child": [
+              {
+                "name": "总览11",
+                "path": "/overview/v/1",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/overview/v/1",
+                "parentId": "/overview/v"
+              },
+              {
+                "name": "总览12",
+                "path": "/overview/v/3",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/overview/v/3",
+                "parentId": "/overview/v"
+              }
+            ]
+          },
+          {
+            "name": "总览2",
+            "path": "/overview/we",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/overview/we",
+            "parentId": "/overview"
+          }
+        ]
+      },
+
+      {
+        "name": "企业门户",
+        "path": "/ep",
+        "strategy": "0b111111",
+        "level": 1,
+        "id": "/ep",
+        "parentId": 0,
+        "redirect": "/ep/home",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "企业门户1",
+            "path": "/ep/home",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/ep/home",
+            "parentId": "/ep",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg"
+          },
+          {
+            "name": "企业门户2",
+            "path": "/ep/c",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/ep/c",
+            "parentId": "/ep",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "child": [
+              {
+                "name": "企业门户21",
+                "path": "/ep/c/1",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/ep/c/1",
+                "parentId": "/ep/c"
+              },
+              {
+                "name": "企业门户22",
+                "path": "/ep/c/3",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/ep/c/3",
+                "parentId": "/ep/c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ipaas2",
+        "path": "/hat-app-ipaas",
+        "strategy": "0b111111",
+        "id": "/hat-app-ipaas",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/hat-app-ipaas/console/configure",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "应用管理",
+            "path": "/hat-app-ipaas/console",
+            "parentId": "/hat-app-ipaas",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/hat-app-ipaas/console",
+            "child": [
+              {
+                "name": "应用配置",
+                "path": "/hat-app-ipaas/console/configure",
+                "strategy": "0b111111",
+                "level": 3,
+                "id": "/hat-app-ipaas/console/configure",
+                "parentId": "/hat-app-ipaas/console"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "子应用",
+        "path": "/hat-app-umijs",
+        "strategy": "0b111111",
+        "id": "/hat-app-umijs",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/hat-app-umijs/console/list",
+        "child": [
+          {
+            "name": "子应用console列表",
+            "path": "/hat-app-umijs/console/list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/console/list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用account列表",
+            "path": "/hat-app-umijs/console/account",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/console/account",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用sp/amis列表",
+            "path": "/hat-app-umijs/sp/amis-list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/sp/amis-list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用console/amis列表",
+            "path": "/hat-app-umijs/console/amis-list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/console/amis-list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用sp表",
+            "path": "/hat-app-umijs/sp/list",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/sp/list",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          },
+          {
+            "name": "子应用sp/表",
+            "path": "/hat-app-umijs/",
+            "strategy": "0b111111",
+            "id": "/hat-app-umijs/",
+            "level": 2,
+            "parentId": "/hat-app-umijs"
+          }
+        ]
+      }
+    ],
+    "accountMenu": [
+      {
+        "name": "账号",
+        "strategy": "0b111111",
+        "path": "/hat-account-center",
+        "id": "/hat-account-center",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/hat-account-center/users",
+        "child": [
+          {
+            "name": "账号信息",
+            "path": "/hat-account-center/console/account",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/hat-account-center/console/account",
+            "parentId": "/hat-account-center"
+          },
+          {
+            "name": "访问管理",
+            "path": "/hat-account-center/users",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/hat-account-center/users",
+            "parentId": "/hat-account-center",
+            "child": [
+              {
+                "name": "访问管理1",
+                "path": "/hat-account-center/users/1",
+                "id": "/hat-account-center/users/1",
+                "parentId": "/hat-account-center/users",
+                "strategy": "0b111111",
+                "level": 3
+              },
+              {
+                "name": "访问管理2",
+                "path": "/hat-account-center/users/2",
+                "id": "/hat-account-center/users/2",
+                "parentId": "/hat-account-center/users",
+                "strategy": "0b111111",
+                "level": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "menuManager": [
+      {
+        "name": "平台设置",
+        "strategy": "0b111111",
+        "path": "/hat-setting",
+        "id": "/hat-setting",
+        "level": 1,
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "parentId": 0,
+        "redirect": "/hat-setting",
+        "child": [
+          {
+            "name": "订单管理",
+            "path": "/hat-setting/order",
+            "strategy": "0b111111",
+            "level": 2,
+            "id": "/hat-setting/order",
+            "parentId": "/hat-setting",
+            "child": [
+              {
+                "name": "订单1",
+                "path": "/hat-setting/order/1",
+                "id": "/hat-setting/order/1",
+                "parentId": "/hat-setting/order",
+                "strategy": "0b111111",
+                "level": 3
+              },
+              {
+                "name": "订单2",
+                "path": "/hat-setting/order/3",
+                "id": "/hat-setting/order/3",
+                "parentId": "/hat-setting/order",
+                "strategy": "0b111111",
+                "level": 3
+              }
+            ]
+          },
+          {
+            "name": "发票管理",
+            "path": "/hat-setting/invoice",
+            "strategy": "0b111111",
+            "id": "/hat-setting/invoice",
+            "parentId": "/hat-setting",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "name": "应用服务商",
+        "strategy": "0b111111",
+        "path": "/apply",
+        "id": "/apply",
+        "level": 1,
+        "parentId": 0,
+        "redirect": "/apply/invoice",
+        "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+        "child": [
+          {
+            "name": "订单管理",
+            "path": "/apply/order",
+            "strategy": "0b111111",
+            "id": "/apply/order",
+            "parentId": "/apply",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "level": 2
+          },
+          {
+            "name": "发票管理",
+            "path": "/apply/invoice",
+            "strategy": "0b111111",
+            "id": "/apply/invoice",
+            "parentId": "/apply",
+            "icon": "https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/server/css/img/aside-icon/cvm-logo.svg",
+            "level": 2
+          }
+        ]
+      }
+    ]
+  },
+  "cp": {}
+}
